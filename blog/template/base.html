@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Sapa Blog</title>
+    </head>
+    <body>
+        <header>
+            <h1><a href="{% url 'home' %}">Sapa Blog</a></h1>
+        </header>
+
+        <div>
+            {% block content %}
+            {% endblock %}
+        </div>
+    </body>
+
+
+
+</html>
